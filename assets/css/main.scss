@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+html {
+        box-sizing: border-box;
+        background-color: #ecebf3;
+}
+
+*,
+*::before,
+*::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif !important;
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+        box-sizing: inherit;
+}
+
+html,
+body {
+        height: 100%;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+        margin: 0;
+        font-size: inherit;
+        font-weight: 400;
+}
+form {
+        margin: 0;
+}
+fieldset {
+        padding: 0;
+        border: 0;
+        margin: 0;
+}
+a {
+        text-decoration: none;
+        color: inherit;
+}
+address {
+        font-style: inherit;
+}
+p {
+        margin: 0;
+        font-family: "Segoe-UI-Bold";
+}
+
+ul,
+ol,
+li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+}
+
+button {
+        display: block;
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+}
+input {
+        border: inherit;
+        padding: 0;
+        margin: 0;
+}
